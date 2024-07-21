@@ -1,0 +1,56 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+     /* background-color: orange; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-image: url('/Image/Background.jpg');
+     background-repeat: no-repeat;
+     font-family: "Inter", sans-serif;
+}
+.main{
+    width: 50%;
+    padding: 20px;
+    background-color: white;
+    border: 7px solid yellow;
+    outline: 10px double red;
+}
+.introduction{
+    color: blue;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    
+}
+.esther{
+    border: 3px solid orange;
+}
+.isaac{
+    background-color: black;
+    color: white;
+}
+
+.link{
+    text-decoration: none;
+    border: 2px solid green;
+    padding: 10px;
+    color: black;
+    font-weight: 800;
+}
+.link:hover{
+    background-color: green;
+    color: white;
+}
+
